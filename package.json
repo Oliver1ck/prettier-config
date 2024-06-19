@@ -1,0 +1,40 @@
+{
+    "name": "@Oliver1ck/prettier-config",
+    "version": "5.0.2",
+    "type": "module",
+    "description": "prettier-config",
+    "main": "./.prettierrc.json",
+    "prettier": "./.prettierrc.json",
+    "files": [
+      ".prettierignore",
+      ".prettierrc.cjs",
+      ".prettierrc.json"
+    ],
+    "scripts": {
+      "format": "prettier --write '**/*.{js,ts,tsx,json}'"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Oliver1ck/prettier-config.git"
+    },
+    "author": {
+      "name": "Artsem Yunchyts",
+      "email": "sys@crashmax.ru",
+      "url": ""
+    },
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Oliver1ck/prettier-config/issues"
+    },
+    "homepage": "https://github.com/Oliver1ck/prettier-config#readme",
+    "devDependencies": {
+      "@ianvs/prettier-plugin-sort-imports": "4.1.1",
+      "prettier": "3.2.5",
+      "prettier-plugin-multiline-arrays": "3.0.3"
+    },
+    "peerDependencies": {
+      "@ianvs/prettier-plugin-sort-imports": "4.1.1",
+      "prettier": "3.2.5",
+      "prettier-plugin-multiline-arrays": "3.0.3"
+    }
+  }
