@@ -3,6 +3,6 @@
 ## Installation
 
 ```console
-    npm i -g @Oliver1ck/prettier-config
+    pnpm i -g @Oliver1ck/prettier-config
 ```
 
